@@ -1,3 +1,5 @@
+import express from 'express';
 
-const d: number = 3;
-console.log('salut' + d);
+const app = express();
+
+app.listen(4100, () => console.log("started server"));
